@@ -1,0 +1,232 @@
+
+---Downloaded files---
+The import files for: Demo Import were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://htdss.kaizeninfotechsolutions.com
+Data file = /home1/kaizeni3/public_html/htdss/wp-content/themes/asting/install_resource/demo_import/demo-content.xml
+Widget file = /home1/kaizeni3/public_html/htdss/wp-content/themes/asting/install_resource/demo_import/widgets.wie
+Customizer file = /home1/kaizeni3/public_html/htdss/wp-content/themes/asting/install_resource/demo_import/customize.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[WARNING] Failed to import product_cat Accessories
+[WARNING] Failed to import product_tag art jar
+[WARNING] Failed to import product_cat Ceramic
+[WARNING] Failed to import product_tag ceramic
+[WARNING] Failed to import product_tag City
+[WARNING] Failed to import product_tag Design
+[WARNING] Failed to import product_tag Development
+[WARNING] Failed to import event_type Education
+[WARNING] Failed to import give_forms_category Education
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import event_type Food
+[WARNING] Failed to import give_forms_category Food
+[WARNING] Failed to import event_tag Fresh
+[WARNING] Failed to import product_tag Goverment
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_tag Handbags
+[WARNING] Failed to import product_tag handmade
+[WARNING] Failed to import event_type Health
+[WARNING] Failed to import product_tag jar
+[WARNING] Failed to import event_tag life
+[WARNING] Failed to import event_type Lifesaving
+[WARNING] Failed to import event_tag Mission
+[WARNING] Failed to import product_tag modern handbag
+[WARNING] Failed to import product_tag old jar
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import event_tag poor
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import product_tag Road
+[WARNING] Failed to import product_cat Scarf
+[WARNING] Failed to import product_tag scarf
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_tag Smart City
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import event_tag Water
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_cat Accessories
+[WARNING] Failed to import product_tag art jar
+[WARNING] Failed to import product_cat Ceramic
+[WARNING] Failed to import product_tag ceramic
+[WARNING] Failed to import product_tag City
+[WARNING] Failed to import product_tag Design
+[WARNING] Failed to import product_tag Development
+[WARNING] Failed to import event_type Education
+[WARNING] Failed to import give_forms_category Education
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import event_type Food
+[WARNING] Failed to import give_forms_category Food
+[WARNING] Failed to import event_tag Fresh
+[WARNING] Failed to import product_tag Goverment
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_tag Handbags
+[WARNING] Failed to import product_tag handmade
+[WARNING] Failed to import event_type Health
+[WARNING] Failed to import product_tag jar
+[WARNING] Failed to import event_tag life
+[WARNING] Failed to import event_type Lifesaving
+[WARNING] Failed to import event_tag Mission
+[WARNING] Failed to import product_tag modern handbag
+[WARNING] Failed to import product_tag old jar
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import event_tag poor
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import product_tag Road
+[WARNING] Failed to import product_cat Scarf
+[WARNING] Failed to import product_tag scarf
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_tag Smart City
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import event_tag Water
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_cat Accessories
+[WARNING] Failed to import product_tag art jar
+[WARNING] Failed to import product_cat Ceramic
+[WARNING] Failed to import product_tag ceramic
+[WARNING] Failed to import product_tag City
+[WARNING] Failed to import product_tag Design
+[WARNING] Failed to import product_tag Development
+[WARNING] Failed to import event_type Education
+[WARNING] Failed to import give_forms_category Education
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import event_type Food
+[WARNING] Failed to import give_forms_category Food
+[WARNING] Failed to import event_tag Fresh
+[WARNING] Failed to import product_tag Goverment
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_tag Handbags
+[WARNING] Failed to import product_tag handmade
+[WARNING] Failed to import event_type Health
+[WARNING] Failed to import product_tag jar
+[WARNING] Failed to import event_tag life
+[WARNING] Failed to import event_type Lifesaving
+[WARNING] Failed to import event_tag Mission
+[WARNING] Failed to import product_tag modern handbag
+[WARNING] Failed to import product_tag old jar
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import event_tag poor
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import product_tag Road
+[WARNING] Failed to import product_cat Scarf
+[WARNING] Failed to import product_tag scarf
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_tag Smart City
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import event_tag Water
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_cat Accessories
+[WARNING] Failed to import product_tag art jar
+[WARNING] Failed to import product_cat Ceramic
+[WARNING] Failed to import product_tag ceramic
+[WARNING] Failed to import product_tag City
+[WARNING] Failed to import product_tag Design
+[WARNING] Failed to import product_tag Development
+[WARNING] Failed to import event_type Education
+[WARNING] Failed to import give_forms_category Education
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import event_type Food
+[WARNING] Failed to import give_forms_category Food
+[WARNING] Failed to import event_tag Fresh
+[WARNING] Failed to import product_tag Goverment
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_tag Handbags
+[WARNING] Failed to import product_tag handmade
+[WARNING] Failed to import event_type Health
+[WARNING] Failed to import product_tag jar
+[WARNING] Failed to import event_tag life
+[WARNING] Failed to import event_type Lifesaving
+[WARNING] Failed to import event_tag Mission
+[WARNING] Failed to import product_tag modern handbag
+[WARNING] Failed to import product_tag old jar
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import event_tag poor
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import product_tag Road
+[WARNING] Failed to import product_cat Scarf
+[WARNING] Failed to import product_tag scarf
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_tag Smart City
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import event_tag Water
+[WARNING] Failed to import "Default Kit": Invalid post type elementor_library
+[WARNING] Failed to import "Food safety for African countries": Invalid post type event
+
+
+---Importing widgets---
+event-sidebar : Sidebar does not exist in theme (moving widget to Inactive)
+
+event_category - Categories - Site does not support widget
+event_feature - Feature - Site does not support widget
+event_upcomming - No Title - Site does not support widget
+event_tag - Tags - Site does not support widget
+
+Main Sidebar : 
+
+Custom HTML - No Title - Imported
+recent-posts-widget-with-thumbnails - Recent News - Site does not support widget
+Categories - No Title - Imported
+
+woo-sidebar : Sidebar does not exist in theme (moving widget to Inactive)
+
+Custom HTML - No Title - Imported to Inactive
+woocommerce_product_categories - Categories - Site does not support widget
+woocommerce_price_filter - Filter by price - Site does not support widget
+woocommerce_products - Featured - Site does not support widget
+woocommerce_product_tag_cloud - Product tags - Site does not support widget
+
+give-forms-sidebar : Sidebar does not exist in theme (moving widget to Inactive)
+
+give_category - Cause Categories - Site does not support widget
+give_recent - Recent Donations - Site does not support widget
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

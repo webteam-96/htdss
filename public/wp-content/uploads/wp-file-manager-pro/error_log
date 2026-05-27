@@ -1,0 +1,40 @@
+[17-Nov-2024 02:57:36 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php:173
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php(173): implode()
+#1 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php on line 173
+[17-Nov-2024 02:57:38 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php:173
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php(173): implode()
+#1 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php on line 173
+[17-Nov-2024 02:58:59 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php:173
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php(173): implode()
+#1 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php on line 173
+[17-Nov-2024 02:58:59 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php:173
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php(173): implode()
+#1 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php on line 173
+[17-Nov-2024 02:59:40 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php:173
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php(173): implode()
+#1 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php on line 173
+[17-Nov-2024 02:59:41 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php:173
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php(173): implode()
+#1 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php on line 173
+[17-Nov-2024 03:00:22 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php:173
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php(173): implode()
+#1 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php on line 173
+[17-Nov-2024 03:00:23 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php:173
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php(173): implode()
+#1 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/wp-file-manager-pro/azngayvj.php on line 173

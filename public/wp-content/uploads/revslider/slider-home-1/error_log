@@ -1,0 +1,77 @@
+[28-Dec-2024 22:11:27 UTC] PHP Notice:  unserialize(): Error at offset 4892 of 4998 bytes in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 334
+[28-Dec-2024 22:11:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 245
+[28-Dec-2024 22:11:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 255
+[28-Dec-2024 22:11:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 707
+[28-Dec-2024 22:11:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 708
+[28-Dec-2024 22:11:27 UTC] PHP Fatal error:  Uncaught Error: Value of type null is not callable in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php:710
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php(259): lowercase_octets()
+#1 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php(1140): step_1()
+#2 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 710
+[28-Dec-2024 22:11:29 UTC] PHP Notice:  unserialize(): Error at offset 4892 of 4998 bytes in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 334
+[28-Dec-2024 22:11:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 245
+[28-Dec-2024 22:11:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 255
+[28-Dec-2024 22:11:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 707
+[28-Dec-2024 22:11:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 708
+[28-Dec-2024 22:11:29 UTC] PHP Fatal error:  Uncaught Error: Value of type null is not callable in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php:710
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php(259): lowercase_octets()
+#1 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php(1140): step_1()
+#2 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 710
+[28-Dec-2024 22:11:30 UTC] PHP Notice:  unserialize(): Error at offset 4892 of 4998 bytes in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 334
+[28-Dec-2024 22:11:30 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 245
+[28-Dec-2024 22:11:30 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 255
+[28-Dec-2024 22:11:30 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 707
+[28-Dec-2024 22:11:30 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 708
+[28-Dec-2024 22:11:30 UTC] PHP Fatal error:  Uncaught Error: Value of type null is not callable in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php:710
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php(259): lowercase_octets()
+#1 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php(1140): step_1()
+#2 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 710
+[28-Dec-2024 22:12:02 UTC] PHP Notice:  unserialize(): Error at offset 4892 of 4998 bytes in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 334
+[28-Dec-2024 22:12:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 245
+[28-Dec-2024 22:12:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 255
+[28-Dec-2024 22:12:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 707
+[28-Dec-2024 22:12:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 708
+[28-Dec-2024 22:12:02 UTC] PHP Fatal error:  Uncaught Error: Value of type null is not callable in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php:710
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php(259): lowercase_octets()
+#1 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php(1140): step_1()
+#2 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 710
+[28-Dec-2024 22:12:03 UTC] PHP Notice:  unserialize(): Error at offset 4892 of 4998 bytes in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 334
+[28-Dec-2024 22:12:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 245
+[28-Dec-2024 22:12:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 255
+[28-Dec-2024 22:12:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 707
+[28-Dec-2024 22:12:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 708
+[28-Dec-2024 22:12:03 UTC] PHP Fatal error:  Uncaught Error: Value of type null is not callable in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php:710
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php(259): lowercase_octets()
+#1 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php(1140): step_1()
+#2 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 710
+[28-Dec-2024 22:12:04 UTC] PHP Notice:  unserialize(): Error at offset 4892 of 4998 bytes in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 334
+[28-Dec-2024 22:12:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 245
+[28-Dec-2024 22:12:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 255
+[28-Dec-2024 22:12:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 707
+[28-Dec-2024 22:12:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 708
+[28-Dec-2024 22:12:04 UTC] PHP Fatal error:  Uncaught Error: Value of type null is not callable in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php:710
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php(259): lowercase_octets()
+#1 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php(1140): step_1()
+#2 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 710
+[28-Dec-2024 22:12:04 UTC] PHP Notice:  unserialize(): Error at offset 4892 of 4998 bytes in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 334
+[28-Dec-2024 22:12:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 245
+[28-Dec-2024 22:12:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 255
+[28-Dec-2024 22:12:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 707
+[28-Dec-2024 22:12:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 708
+[28-Dec-2024 22:12:04 UTC] PHP Fatal error:  Uncaught Error: Value of type null is not callable in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php:710
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php(259): lowercase_octets()
+#1 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php(1140): step_1()
+#2 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/revslider/slider-home-1/profile.php on line 710

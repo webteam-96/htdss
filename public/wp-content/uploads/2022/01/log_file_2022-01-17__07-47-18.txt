@@ -1,0 +1,66 @@
+
+---Downloaded files---
+The import files for: Demo Import were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://htdss.kaizeninfotechsolutions.com
+Data file = /home1/kaizeni3/public_html/htdss/wp-content/themes/asting/install_resource/demo_import/demo-content.xml
+Widget file = /home1/kaizeni3/public_html/htdss/wp-content/themes/asting/install_resource/demo_import/widgets.wie
+Customizer file = /home1/kaizeni3/public_html/htdss/wp-content/themes/asting/install_resource/demo_import/customize.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Event Sidebar : 
+
+Categories Event - Categories - Imported
+Feature Event - Feature - Imported
+Upcomming Event - No Title - Imported
+Tag Event - Tags - Imported
+
+Main Sidebar : 
+
+Custom HTML - No Title - Imported
+Recent Posts With Thumbnails - Recent News - Imported
+Categories - No Title - Imported
+
+WooCommerce Sidebar : 
+
+Custom HTML - No Title - Imported
+Product Categories - Categories - Imported
+Filter Products by Price - Filter by price - Imported
+Products list - Featured - Imported
+Product Tag Cloud - Product tags - Imported
+
+GiveWP Single Form Sidebar : 
+
+Categories Give - Cause Categories - Imported
+List Give - Recent Donations - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

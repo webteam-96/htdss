@@ -1,0 +1,40 @@
+[16-Nov-2024 20:29:39 UTC] PHP Fatal error:  Cannot redeclare getType() in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/wp-login.php on line 26
+[16-Nov-2024 20:29:40 UTC] PHP Fatal error:  Cannot redeclare getType() in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/wp-login.php on line 26
+[16-Nov-2024 20:29:41 UTC] PHP Fatal error:  Cannot redeclare getType() in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/wp-login.php on line 26
+[16-Nov-2024 20:29:42 UTC] PHP Fatal error:  Cannot redeclare getType() in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/wp-login.php on line 26
+[16-Nov-2024 20:29:43 UTC] PHP Fatal error:  Cannot redeclare getType() in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/wp-login.php on line 26
+[29-Nov-2024 12:22:02 UTC] PHP Fatal error:  Uncaught ValueError: explode(): Argument #1 ($separator) cannot be empty in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php:165
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php(165): explode()
+#1 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php on line 165
+[29-Nov-2024 12:22:05 UTC] PHP Fatal error:  Uncaught ValueError: explode(): Argument #1 ($separator) cannot be empty in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php:165
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php(165): explode()
+#1 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php on line 165
+[29-Nov-2024 12:22:07 UTC] PHP Fatal error:  Uncaught ValueError: explode(): Argument #1 ($separator) cannot be empty in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php:165
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php(165): explode()
+#1 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php on line 165
+[29-Nov-2024 12:22:10 UTC] PHP Fatal error:  Uncaught ValueError: explode(): Argument #1 ($separator) cannot be empty in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php:165
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php(165): explode()
+#1 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php on line 165
+[29-Nov-2024 12:22:10 UTC] PHP Fatal error:  Uncaught ValueError: explode(): Argument #1 ($separator) cannot be empty in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php:165
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php(165): explode()
+#1 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php on line 165
+[29-Nov-2024 12:22:12 UTC] PHP Fatal error:  Uncaught ValueError: explode(): Argument #1 ($separator) cannot be empty in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php:165
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php(165): explode()
+#1 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php on line 165
+[29-Nov-2024 12:22:13 UTC] PHP Fatal error:  Uncaught ValueError: explode(): Argument #1 ($separator) cannot be empty in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php:165
+Stack trace:
+#0 /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php(165): explode()
+#1 {main}
+  thrown in /home/uvy5bp41yxd5/public_html/htdss.com/wp-content/uploads/2022/08/zepiqxik.php on line 165

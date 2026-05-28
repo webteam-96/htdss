@@ -33,7 +33,10 @@ export default async function PostDetail({ params }: { params: Promise<{ slug: s
           </div>
         )}
         <div className="mt-12 sm:mt-16">
-          <Link href="/events" className="text-teal-700 font-semibold hover:underline">← Back to events</Link>
+          {/conference/i.test(post.title)
+            ? <Link href="/events" className="text-teal-700 font-semibold hover:underline">← Back to scientific events</Link>
+            : <Link href="/activities" className="text-teal-700 font-semibold hover:underline">← Back to activities</Link>
+          }
         </div>
     </section>
   );

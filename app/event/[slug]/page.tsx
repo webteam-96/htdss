@@ -32,7 +32,7 @@ export default async function EventDetail({ params }: { params: Promise<{ slug: 
           </div>
         )}
         <div className="mt-12 sm:mt-16">
-          <Link href="/events" className="text-teal-700 font-semibold hover:underline">← Back to all events</Link>
+          <Link href="/activities" className="text-teal-700 font-semibold hover:underline">← Back to activities</Link>
         </div>
     </section>
   );

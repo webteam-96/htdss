@@ -36,7 +36,13 @@ export default function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="contact-page__form">
+    <form
+      onSubmit={handleSubmit}
+      action={ENDPOINT}
+      method="post"
+      className="contact-page__form"
+      noValidate
+    >
       <div className="row">
         {/* FormSubmit configuration */}
         <input type="hidden" name="_subject" value="New enquiry — HTDSS website" />
@@ -51,31 +57,36 @@ export default function ContactForm() {
           value="Thank you for contacting Howrah Town Diabetes Study Society (HTDSS). We have received your message and will get back to you as soon as possible. Warm regards, HTDSS Team"
         />
         {/* honeypot: bots fill this, FormSubmit drops them */}
-        <input type="text" name="_honey" tabIndex={-1} autoComplete="off" style={{ display: 'none' }} />
+        <input type="text" name="_honey" tabIndex={-1} autoComplete="off" style={{ display: 'none' }} aria-hidden="true" />
 
-        <div className="col-xl-12 col-lg-12 col-md-12">
+        <div className="col-12 col-md-12">
           <div className="contact-page__input-box">
-            <input type="text" name="name" placeholder="Your Name" required />
+            <label htmlFor="cf-name" className="sr-only">Your name</label>
+            <input id="cf-name" type="text" name="name" placeholder="Your Name" autoComplete="name" required />
           </div>
         </div>
-        <div className="col-xl-12 col-lg-12 col-md-12">
+        <div className="col-12 col-md-12">
           <div className="contact-page__input-box">
-            <input type="email" name="email" placeholder="Email Address" required />
+            <label htmlFor="cf-email" className="sr-only">Email address</label>
+            <input id="cf-email" type="email" name="email" placeholder="Email Address" autoComplete="email" required />
           </div>
         </div>
-        <div className="col-xl-6 col-lg-6 col-md-6">
+        <div className="col-12 col-md-6">
           <div className="contact-page__input-box">
-            <input type="text" name="phone" placeholder="Phone Number" />
+            <label htmlFor="cf-phone" className="sr-only">Phone number</label>
+            <input id="cf-phone" type="tel" name="phone" placeholder="Phone Number" autoComplete="tel" inputMode="tel" />
           </div>
         </div>
-        <div className="col-xl-6 col-lg-6 col-md-6">
+        <div className="col-12 col-md-6">
           <div className="contact-page__input-box">
-            <input type="text" name="subject" placeholder="Subject" />
+            <label htmlFor="cf-subject" className="sr-only">Subject</label>
+            <input id="cf-subject" type="text" name="subject" placeholder="Subject" />
           </div>
         </div>
-        <div className="col-xl-12">
+        <div className="col-12">
           <div className="contact-page__input-box text-message-box">
-            <textarea name="message" placeholder="Type Your Message" required />
+            <label htmlFor="cf-message" className="sr-only">Your message</label>
+            <textarea id="cf-message" name="message" placeholder="Type Your Message" required />
           </div>
           <div className="contact-page__btn-box">
             <button
@@ -88,13 +99,18 @@ export default function ContactForm() {
             </button>
           </div>
 
+          <div className="sr-only" role="status" aria-live="polite">
+            {status === 'sending' && 'Sending your message…'}
+            {status === 'sent' && 'Your message has been sent.'}
+          </div>
+
           {status === 'sent' && (
-            <p style={{ marginTop: 20, color: '#1860a8', fontWeight: 600 }}>
+            <p role="status" style={{ marginTop: 20, color: '#1860a8', fontWeight: 600 }}>
               Thank you! Your message has been sent — we&apos;ll get back to you soon.
             </p>
           )}
           {status === 'error' && (
-            <p style={{ marginTop: 20, color: '#c0392b', fontWeight: 600 }}>
+            <p role="alert" style={{ marginTop: 20, color: '#c0392b', fontWeight: 600 }}>
               Sorry, something went wrong. Please email us directly at
               howrahdiabetessociety@gmail.com.
             </p>

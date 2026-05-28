@@ -9,7 +9,7 @@ export default function ContactPage() {
       <section className="contact-page-info">
         <div className="container">
           <div className="row">
-            <div className="col-xl-4 col-lg-6 col-md-6">
+            <div className="col-12 col-md-6 col-xl-4">
               <div className="contact-page-info__single">
                 <div className="icon-box"><span className="icon-gps" /></div>
                 <div className="content-box">
@@ -19,7 +19,7 @@ export default function ContactPage() {
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-lg-6 col-md-6">
+            <div className="col-12 col-md-6 col-xl-4">
               <div className="contact-page-info__single">
                 <div className="icon-box"><span className="icon-telephone1" /></div>
                 <div className="content-box">
@@ -29,7 +29,7 @@ export default function ContactPage() {
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-lg-6 col-md-6">
+            <div className="col-12 col-md-6 col-xl-4">
               <div className="contact-page-info__single">
                 <div className="icon-box">
                   <svg width="40" height="40" viewBox="0 0 512 512" fill="#fff" aria-hidden="true">

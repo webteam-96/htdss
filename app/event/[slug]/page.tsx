@@ -18,20 +18,20 @@ export default async function EventDetail({ params }: { params: Promise<{ slug: 
   const ev = getEvent(slug);
   if (!ev) notFound();
   return (
-    <section className="container-page py-16">
-      {ev.date && <p className="text-sm font-semibold text-teal-700 mb-4">{formatDate(ev.date)}</p>}
+    <section className="container-page py-10 sm:py-14 lg:py-16">
+      {ev.date && <p className="text-sm font-semibold text-teal-700 mb-3 sm:mb-4">{formatDate(ev.date)}</p>}
       {ev.paragraphs.length > 0 && (
         <div className="prose-clean max-w-3xl">
           {ev.paragraphs.map((p, i) => <p key={i}>{p}</p>)}
         </div>
       )}
         {ev.images.length > 0 && (
-          <div className="mt-12">
-            <h2 className="font-display font-bold text-2xl text-ink-900 mb-6">Photos</h2>
+          <div className="mt-10 sm:mt-12">
+            <h2 className="font-display font-bold text-xl sm:text-2xl text-ink-900 mb-5 sm:mb-6">Photos</h2>
             <Gallery images={ev.images} />
           </div>
         )}
-        <div className="mt-16">
+        <div className="mt-12 sm:mt-16">
           <Link href="/events" className="text-teal-700 font-semibold hover:underline">← Back to all events</Link>
         </div>
     </section>

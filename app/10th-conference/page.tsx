@@ -13,13 +13,13 @@ const FLYERS = [
 export default function TenthConferencePage() {
   return (
     <>
-      <section className="container-page py-16">
-        <div className="max-w-3xl mb-10">
-          <h2 className="font-display font-bold text-3xl text-ink-900">Diabetes &amp; Health</h2>
-          <p className="mt-4 text-ink-600 leading-relaxed">23&ndash;24 August 2025 · 9 a.m. to 6 p.m. · Hyatt Regency, Kolkata.</p>
+      <section className="container-page py-10 sm:py-14 lg:py-16">
+        <div className="max-w-3xl mb-8 sm:mb-10">
+          <h2 className="font-display font-bold text-2xl sm:text-3xl text-ink-900">Diabetes &amp; Health</h2>
+          <p className="mt-3 sm:mt-4 text-ink-600 leading-relaxed">23&ndash;24 August 2025 · 9 a.m. to 6 p.m. · Hyatt Regency, Kolkata.</p>
         </div>
-        <div className="grid lg:grid-cols-12 gap-12 items-start">
-          <div className="lg:col-span-7 prose-clean">
+        <div className="grid md:grid-cols-12 gap-8 lg:gap-12 items-start">
+          <div className="md:col-span-7 prose-clean">
             <p>
               The 10th National Conference of the Howrah Town Diabetes Study Society brings together physicians,
               endocrinologists, dietitians and researchers for two days of scientific discussion on diabetes care.
@@ -30,8 +30,8 @@ export default function TenthConferencePage() {
             </p>
           </div>
 
-          <aside className="lg:col-span-5">
-            <div className="rounded-2xl bg-ink-50 p-6">
+          <aside className="md:col-span-5">
+            <div className="rounded-2xl bg-ink-50 p-5 sm:p-6">
               <h3 className="font-display font-bold text-lg text-ink-900">Conference at a glance</h3>
               <dl className="mt-4 space-y-3 text-sm">
                 <div className="flex justify-between gap-4"><dt className="text-ink-500">Theme</dt><dd className="text-right font-semibold text-ink-900">Diabetes &amp; Health</dd></div>
@@ -44,9 +44,9 @@ export default function TenthConferencePage() {
         </div>
       </section>
 
-      <section className="bg-ink-50 py-16">
+      <section className="bg-ink-50 py-10 sm:py-14 lg:py-16">
         <div className="container-page">
-          <h2 className="font-display font-bold text-2xl text-ink-900 mb-6">Conference flyers</h2>
+          <h2 className="font-display font-bold text-xl sm:text-2xl text-ink-900 mb-5 sm:mb-6">Conference flyers</h2>
           <Gallery images={FLYERS} columns={3} />
         </div>
       </section>

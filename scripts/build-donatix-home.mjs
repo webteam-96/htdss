@@ -116,10 +116,10 @@ const HERO_SLIDES = [
   '/wp-content/uploads/2021/02/slider-7.jpg',
 ];
 
-const slideMarkup = HERO_SLIDES.map(src => `
+const slideMarkup = HERO_SLIDES.map((src, i) => `
   <div class="swiper-slide">
     <div class="main-slider-one__single htdss-hero-slide">
-      <img class="htdss-hero-img" src="${src}" alt="" />
+      <img class="htdss-hero-img" src="${src}"${i === 0 ? '' : ' loading="lazy"'} alt="HTDSS event highlight ${i + 1}" />
     </div>
   </div>`).join('\n');
 
@@ -215,9 +215,27 @@ body = body.replace(/data-hover="donation"[^>]*>\s*donation/, 'data-hover="commu
 // --- About Three section ------------------------------------------------
 body = body.replace(/<h4>About Our Organization<\/h4>/, '<h4>About HTDSS</h4>');
 body = body.replace(/Making a Difference, One <br> Contribution\s*at a Time/, 'A community of physicians serving <br> Howrah since 2018');
+// NB: the global Donatix→HTDSS replace above has already run by now, so the
+// regex must match the HTDSS variant. Cover both forms for safety.
 body = body.replace(
-  /<p>Founded in 1989 Donatix is a non-profit organization committed to improving lives\s*through food, education, clean water, and healthcare\. With a passionate team and a\s*global network of supporters,<\/p>/,
+  /<p>Founded in 1989 (?:Donatix|HTDSS) is a non-profit organization committed to improving lives\s*through food, education, clean water, and healthcare\. With a passionate team and a\s*global network of supporters,<\/p>/,
   '<p>The Howrah Town Diabetes Study Society (HTDSS) was founded on 1 July 2018 by nine physicians and two community associates with a shared vision: to <strong>educate</strong>, <strong>enrich</strong> and <strong>empower</strong> doctors and the community in the field of diabetes.</p>'
+);
+
+// About columns: add lg/md/sm fallbacks so the section stacks on tablets/phones
+body = body.replace(
+  /<div class="col-xl-6 wow fadeInLeft"/g,
+  '<div class="col-xl-6 col-lg-6 col-md-12 col-12 wow fadeInLeft"'
+);
+body = body.replace(
+  /<div class="col-xl-6 wow fadeInRight"/g,
+  '<div class="col-xl-6 col-lg-6 col-md-12 col-12 wow fadeInRight"'
+);
+
+// Lazy-load the YouTube iframe
+body = body.replace(
+  /<iframe\s+src="https:\/\/www\.youtube\.com\/embed\/[^"]+"\s+title="HTDSS introduction"\s+allow=/,
+  match => match.replace('title="HTDSS introduction"', 'title="HTDSS introduction"\n      loading="lazy"')
 );
 
 // Remove the two "Educate doctors" / "Empower community" text2 boxes
@@ -270,17 +288,17 @@ const CONFERENCES = [
     img: '/wp-content/uploads/2024/08/8th-conference.jpg',
     title: '9th National Conference',
     meta1: '28 Sept 2024',
-    meta2: 'National',
+    meta2: 'Howrah, West Bengal',
     anim: 'fadeInUp',
   },
 ];
 
 const cardMarkup = CONFERENCES.map(c => `
-  <div class="col-xl-4 col-lg-4 col-md-6 wow ${c.anim}" data-wow-delay=".3s">
+  <div class="col-xl-4 col-lg-4 col-md-6 col-12 wow ${c.anim}" data-wow-delay=".3s">
     <div class="cause-one__single">
       <div class="cause-one__single-inner">
         <div class="cause-one__single-img">
-          <img src="${c.img}" alt="">
+          <img src="${c.img}" loading="lazy" alt="${c.title.replace(/&amp;/g, '&').replace(/"/g, '&quot;')}">
         </div>
         <div class="cause-one__single-content">
           <h2><a href="${c.href}">${c.title}</a></h2>

@@ -78,16 +78,19 @@ export default function Breadcrumb() {
   pointer-events:none; }
 .hd-breadcrumb__inner { position:relative; z-index:1; max-width:1200px; margin:0 auto;
   padding:38px 24px; display:flex; align-items:center; justify-content:space-between;
-  flex-wrap:wrap; gap:10px; }
-.hd-breadcrumb__title { margin:0; font-size:clamp(24px,3.2vw,34px); font-weight:800; color:#0b2e56;
-  font-family:"Nunito","Nunito Sans",system-ui,sans-serif; }
+  flex-wrap:wrap; gap:14px; }
+.hd-breadcrumb__title { margin:0; font-size:clamp(22px,3.2vw,34px); font-weight:800; color:#0b2e56;
+  font-family:"Nunito","Nunito Sans",system-ui,sans-serif; max-width:100%; line-height:1.2;
+  overflow-wrap:anywhere; }
 .hd-breadcrumb__trail { list-style:none; margin:0; padding:0; display:flex; align-items:center;
-  gap:10px; font-size:14px; font-weight:600; }
+  flex-wrap:wrap; gap:8px; font-size:14px; font-weight:600; }
 .hd-breadcrumb__trail a { color:#1860a8; text-decoration:none; transition:color .2s; }
 .hd-breadcrumb__trail a:hover { color:#e87a1e; }
 .hd-breadcrumb__trail li[aria-current] { color:#5b7088; }
 .hd-breadcrumb__sep { color:#e87a1e; font-weight:700; line-height:1; }
-@media (max-width:560px){ .hd-breadcrumb__inner{ padding:26px 20px; } }
+@media (max-width:767px){ .hd-breadcrumb__inner{ padding:28px 18px; gap:8px; }
+  .hd-breadcrumb__trail{ font-size:13px; } }
+@media (max-width:480px){ .hd-breadcrumb__inner{ padding:22px 16px; } }
 `,
         }}
       />

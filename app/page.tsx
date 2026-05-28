@@ -9,5 +9,10 @@ export default function HomePage() {
     path.join(process.cwd(), 'donatix-home.html'),
     'utf-8'
   );
-  return <HtmlBlock html={bodyHtml} />;
+  return (
+    <>
+      <h1 className="sr-only">Howrah Town Diabetes Study Society — beating diabetes together since 2018</h1>
+      <HtmlBlock html={bodyHtml} />
+    </>
+  );
 }

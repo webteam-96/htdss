@@ -128,11 +128,15 @@ const FOUNDERS_CSS = `
   font-family: "Nunito Sans", system-ui, sans-serif; }
 .fdr-page h1, .fdr-page h2, .fdr-page h3 { font-family: "Nunito", "Nunito Sans", system-ui, sans-serif; }
 .fdr-container { max-width:1200px; margin:0 auto; padding:0 24px; }
+@media (max-width:575px){ .fdr-container{ padding:0 16px; } }
 
 /* Sections */
 .fdr-section { padding:78px 0; background:#fff; }
 .fdr-section--alt { background:linear-gradient(180deg,#f7faff 0%,#eef3fb 100%); }
+@media (max-width:991px){ .fdr-section{ padding:56px 0; } }
+@media (max-width:575px){ .fdr-section{ padding:40px 0; } }
 .fdr-sec-head { text-align:center; max-width:820px; margin:0 auto 48px; }
+@media (max-width:575px){ .fdr-sec-head{ margin:0 auto 28px; } }
 .fdr-tagline { display:inline-block; font-size:12px; font-weight:700; letter-spacing:0.16em;
   text-transform:uppercase; color:var(--blue); margin-bottom:12px; position:relative; padding:0 16px; }
 .fdr-tagline::before, .fdr-tagline::after { content:""; position:absolute; top:50%; width:24px; height:2px;
@@ -149,8 +153,9 @@ const FOUNDERS_CSS = `
 .fdr-grid--4 { grid-template-columns:repeat(4,1fr); }
 .fdr-grid--2 { grid-template-columns:repeat(2,1fr); max-width:760px; }
 .fdr-grid--center { margin-left:auto; margin-right:auto; }
-@media (max-width:900px){ .fdr-grid--3,.fdr-grid--4{ grid-template-columns:repeat(2,1fr);} }
-@media (max-width:560px){ .fdr-grid--3,.fdr-grid--4,.fdr-grid--2{ grid-template-columns:1fr;} }
+@media (max-width:1100px){ .fdr-grid--4{ grid-template-columns:repeat(3,1fr);} }
+@media (max-width:900px){ .fdr-grid--3,.fdr-grid--4{ grid-template-columns:repeat(2,1fr);} .fdr-grid{ gap:20px; } }
+@media (max-width:560px){ .fdr-grid--3,.fdr-grid--4,.fdr-grid--2{ grid-template-columns:1fr;} .fdr-grid{ gap:18px; } }
 
 /* Member card (founders + associates) */
 .fdr-card { position:relative; overflow:hidden; background:#fff; border:1px solid #e6eef4;

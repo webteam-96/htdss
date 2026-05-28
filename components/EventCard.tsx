@@ -19,7 +19,7 @@ export default function EventCard({ href, title, date, image, excerpt, kicker }:
   return (
     <Link
       href={href}
-      className="group flex h-full flex-col rounded-[28px] bg-ink-50 p-[15px] pb-7 transition-shadow duration-300 hover:shadow-xl"
+      className="group flex h-full flex-col rounded-3xl bg-ink-50 p-3 pb-6 sm:p-[15px] sm:pb-7 transition-shadow duration-300 hover:shadow-xl"
     >
       {/* Image with hover plus overlay */}
       <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-ink-100">
@@ -41,26 +41,26 @@ export default function EventCard({ href, title, date, image, excerpt, kicker }:
       </div>
 
       {/* Content */}
-      <div className="flex flex-1 flex-col px-[15px] pt-6">
-        <div className="mb-4 flex items-center gap-4">
+      <div className="flex flex-1 flex-col px-3 pt-5 sm:px-[15px] sm:pt-6">
+        <div className="mb-3 flex items-center gap-3 sm:mb-4 sm:gap-4">
           {day && (
-            <div className="flex h-[62px] w-[62px] shrink-0 flex-col items-center justify-center rounded-2xl bg-accent leading-none text-white transition-colors duration-300 group-hover:bg-teal-600">
-              <span className="text-2xl font-bold">{day}</span>
-              <span className="mt-1 text-[13px] font-semibold">{mon}</span>
+            <div className="flex h-[52px] w-[52px] sm:h-[62px] sm:w-[62px] shrink-0 flex-col items-center justify-center rounded-2xl bg-accent leading-none text-white transition-colors duration-300 group-hover:bg-teal-600">
+              <span className="text-xl sm:text-2xl font-bold">{day}</span>
+              <span className="mt-1 text-[11px] sm:text-[13px] font-semibold">{mon}</span>
             </div>
           )}
           {(kicker || year) && (
-            <div className="eyebrow">{[kicker, year].filter(Boolean).join(' · ')}</div>
+            <div className="eyebrow text-[10px] sm:text-xs">{[kicker, year].filter(Boolean).join(' · ')}</div>
           )}
         </div>
 
-        <h3 className="font-display text-xl font-bold leading-snug text-ink-900 transition-colors group-hover:text-teal-700">
+        <h3 className="font-display text-lg sm:text-xl font-bold leading-snug text-ink-900 transition-colors group-hover:text-teal-700">
           {title}
         </h3>
         {excerpt && <p className="mt-2 text-sm text-ink-600 line-clamp-3">{excerpt}</p>}
 
-        <div className="mt-auto pt-6">
-          <span className="inline-flex w-fit items-center gap-2 rounded-full bg-teal-700 px-5 py-2.5 text-sm font-semibold text-white transition-colors duration-300 group-hover:bg-accent group-hover:text-ink-900">
+        <div className="mt-auto pt-5 sm:pt-6">
+          <span className="inline-flex w-fit items-center gap-2 rounded-full bg-teal-700 px-4 py-2 sm:px-5 sm:py-2.5 text-xs sm:text-sm font-semibold text-white transition-colors duration-300 group-hover:bg-accent group-hover:text-ink-900">
             View details <span className="icon-diagonal-arrow1" />
           </span>
         </div>

@@ -36,15 +36,15 @@ export default function ActivitiesPage() {
 
   return (
     <>
-      <section className="container-page py-16">
-        <div className="flex flex-wrap items-end justify-between gap-6 mb-8">
+      <section className="container-page py-10 sm:py-14 lg:py-16">
+        <div className="flex flex-wrap items-end justify-between gap-4 sm:gap-6 mb-6 sm:mb-8">
           <div className="max-w-2xl">
-            <h2 className="font-display font-bold text-3xl text-ink-900">Walkathons, camps &amp; awareness drives</h2>
-            <p className="mt-4 text-ink-600 leading-relaxed">From quiet awareness camps to large public walkathons — every field activity HTDSS has run since 2018.</p>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl text-ink-900">Walkathons, camps &amp; awareness drives</h2>
+            <p className="mt-3 sm:mt-4 text-sm sm:text-base text-ink-600 leading-relaxed">From quiet awareness camps to large public walkathons — every field activity HTDSS has run since 2018.</p>
           </div>
           <p className="text-sm text-ink-500">{activities.length} activities</p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {activities.map(a => (
             <EventCard
               key={a.href}

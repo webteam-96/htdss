@@ -71,13 +71,13 @@ export default function ContactForm() {
             <input id="cf-email" type="email" name="email" placeholder="Email Address" autoComplete="email" required />
           </div>
         </div>
-        <div className="col-12 col-md-6">
+        <div className="col-12">
           <div className="contact-page__input-box">
             <label htmlFor="cf-phone" className="sr-only">Phone number</label>
             <input id="cf-phone" type="tel" name="phone" placeholder="Phone Number" autoComplete="tel" inputMode="tel" />
           </div>
         </div>
-        <div className="col-12 col-md-6">
+        <div className="col-12">
           <div className="contact-page__input-box">
             <label htmlFor="cf-subject" className="sr-only">Subject</label>
             <input id="cf-subject" type="text" name="subject" placeholder="Subject" />
